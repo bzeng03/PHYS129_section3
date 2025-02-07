@@ -64,8 +64,6 @@ tm_code = """
 92 * * l 92
 
 ; Set up tally
-0 * * l 1
-1 B B l 2
 2 B 0 r 3
 3 B B r 10
 

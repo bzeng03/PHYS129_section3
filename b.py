@@ -25,5 +25,6 @@ def generate_and_save_tape(num1, num2, blanks, filename):
 if __name__ == "__main__":
     # This will generate a tape for num1=1011 and num2=100 with 6 blanks each side
     # and append it to "tapes.dat", then print the tape.
-    result_tape = generate_and_save_tape("1011", "100", 6, "example_initial_tape.dat")
+    result_tape = generate_and_save_tape("101001010111", "101000101", 6, "example_initial_tape.dat")
+    result_tape = generate_and_save_tape("101111", "101001", 6, "example_initial_tape.dat")
     print("Generated tape:", result_tape)
